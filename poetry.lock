@@ -75,6 +75,19 @@ flask = ">=2.2.5"
 sqlalchemy = ">=2.0.16"
 
 [[package]]
+name = "flask-testing"
+version = "0.8.1"
+description = "Unit testing for Flask"
+optional = false
+python-versions = "*"
+files = [
+    {file = "Flask-Testing-0.8.1.tar.gz", hash = "sha256:0a734d7b68e63a9410b413cd7b1f96456f9a858bd09a6222d465650cc782eb01"},
+]
+
+[package.dependencies]
+Flask = "*"
+
+[[package]]
 name = "greenlet"
 version = "3.0.3"
 description = "Lightweight in-process concurrent programming"
@@ -394,4 +407,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "62920941ee3aa3319989b410cd1cb5549f1ffcce637c09d6e14c27fa8497e834"
+content-hash = "c79c4c84b471b2884b1142a9122a037c01bd8ed8af9a42de24c2fb2910ca8bbe"
